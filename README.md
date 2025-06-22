@@ -1,87 +1,6 @@
 
 <h1 align="center" >Social Media Microservice </h1>
 
-📁 <h2>Project Structure</h2>
-
-├── api-gateway/
-│   └── src/
-│       ├── controllers/
-│       │   └── gatewayController.js
-│       ├── routes/
-│       │   └── gatewayRoutes.js
-│       ├── middleware/
-│       │   ├── authMiddleware.js
-│       │   └── errHandler.js
-│       ├── utils/
-│       │   ├── logger.js
-│       │   └── validation.js
-│       ├── models/
-│       └── server.js
-│
-├── identity-service/
-│   └── src/
-│       ├── controllers/
-│       │   └── identityController.js
-│       ├── routes/
-│       │   └── identityRoutes.js
-│       ├── middleware/
-│       │   ├── authMiddleware.js
-│       │   └── errHandler.js
-│       ├── utils/
-│       │   ├── logger.js
-│       │   └── validation.js
-│       ├── models/
-│       └── server.js
-│
-├── media-service/
-│   └── src/
-│       ├── controllers/
-│       │   └── mediaController.js
-│       ├── routes/
-│       │   └── mediaRoutes.js
-│       ├── middleware/
-│       │   ├── authMiddleware.js
-│       │   └── errHandler.js
-│       ├── utils/
-│       │   ├── logger.js
-│       │   └── validation.js
-│       ├── models/
-│       └── server.js
-│
-├── post-service/
-│   └── src/
-│       ├── controllers/
-│       │   └── postController.js
-│       ├── routes/
-│       │   └── postRoutes.js
-│       ├── middleware/
-│       │   ├── authMiddleware.js
-│       │   └── errHandler.js
-│       ├── utils/
-│       │   ├── logger.js
-│       │   └── validation.js
-│       ├── models/
-│       └── server.js
-│
-├── search-service/
-│   └── src/
-│       ├── controllers/
-│       │   └── searchController.js
-│       ├── routes/
-│       │   └── searchRoutes.js
-│       ├── middleware/
-│       │   ├── authMiddleware.js
-│       │   └── errHandler.js
-│       ├── utils/
-│       │   ├── logger.js
-│       │   └── validation.js
-│       ├── models/
-│       └── server.js
-│
-├── .gitignore
-└── docker-compose.yml
-
-
 <hr>
 
 📡 **Service Communication**
@@ -151,4 +70,87 @@ API Gateway acts as a centralized entry point for all external client requests.
 
 📜 **Logging**
 
-⚫Winston – Powerful and customizable logging library used across services for error, info, and debug logs.
+⚫Winston – Powerful and customizable logging library used across services for error, info, and debug logs. 
+
+<h2>Project Structure</h2>
+
+├── api-gateway/ <br>
+│   └── src/<br>
+│       ├── controllers/<br>
+│       │   └── gatewayController.js<br>
+│       ├── routes/<br>
+│       │   └── gatewayRoutes.js<br>
+│       ├── middleware/<br>
+│       │   ├── authMiddleware.js<br>
+│       │   └── errHandler.js<br>
+│       ├── utils/<br>
+│       │   ├── logger.js<br>
+│       │   └── validation.js<br>
+│       ├── models/<br>
+│       └── server.js<br>
+│<br>
+├── identity-service/<br>
+│   └── src/<br>
+│       ├── controllers/<br>
+│       │   └── identityController.js<br>
+│       ├── routes/<br>
+│       │   └── identityRoutes.js<br>
+│       ├── middleware/<br>
+│       │   ├── authMiddleware.js<br>
+│       │   └── errHandler.js<br>
+│       ├── utils/<br>
+│       │   ├── logger.js<br>
+│       │   └── validation.js<br>
+│       ├── models/<br>
+│       └── server.js<br>
+│<br>
+├── media-service/<br>
+│   └── src/<br>
+│       ├── controllers/<br>
+│       │   └── mediaController.js<br>
+│       ├── routes/<br>
+│       │   └── mediaRoutes.js<br>
+│       ├── middleware/<br>
+│       │   ├── authMiddleware.js<br>
+│       │   └── errHandler.js<br>
+│       ├── utils/<br>
+│       │   ├── logger.js<br>
+│       │   └── validation.js<br>
+│       ├── models/<br>
+│       └── server.js<br>
+│<br>
+├── post-service/<br>
+│   └── src/<br>
+│       ├── controllers/<br>
+│       │   └── postController.js<br>
+│       ├── routes/<br>
+│       │   └── postRoutes.js<br>
+│       ├── middleware/<br>
+│       │   ├── authMiddleware.js<br>
+│       │   └── errHandler.js<br>
+│       ├── utils/<br>
+│       │   ├── logger.js<br>
+│       │   └── validation.js<br>
+│       ├── models/<br>
+│       └── server.js<br>
+│<br>
+├── search-service/<br>
+│   └── src/<br>
+│       ├── controllers/<br>
+│       │   └── searchController.js<br>
+│       ├── routes/<br>
+│       │   └── searchRoutes.js<br>
+│       ├── middleware/<br>
+│       │   ├── authMiddleware.js<br>
+│       │   └── errHandler.js<br>
+│       ├── utils/<br>
+│       │   ├── logger.js<br>
+│       │   └── validation.js<br>
+│       ├── models/<br>
+│       └── server.js<br>
+│<br>
+├── .gitignore<br>
+└── docker-compose.yml<br>
+
+
+<hr>
