@@ -1,5 +1,5 @@
-📡 **Service Communication**
 <hr>
+📡 **Service Communication**
 <br>
 ⚫All microservices communicate through the API Gateway using **express-http-proxy**.
 
@@ -7,8 +7,8 @@
 API Gateway acts as a centralized entry point for all external client requests.
 <br>
 
-⚙️ **Core Technologies & Modules**
 <hr>
+⚙️ **Core Technologies & Modules**
 
 🛠 **Framework & Communication**
 
@@ -18,8 +18,8 @@ API Gateway acts as a centralized entry point for all external client requests.
 
 ⚫**amqplib (RabbitMQ)** – Enables message passing between services.
 <br>
-🧠 **Database & ORM** 
 <hr>
+🧠 **Database & ORM** 
 <br>
 
 ⚫**MongoDB** – Primary database.
@@ -27,8 +27,8 @@ API Gateway acts as a centralized entry point for all external client requests.
 ⚫**Mongoose** – ODM used for schema modeling and interacting with MongoDB.
 <br>
 
-🔐 **Authentication & Security**
 <hr>
+🔐 **Authentication & Security**
 
 ⚫jsonwebtoken (**JWT**) – For secure authentication and access control.
 
@@ -37,17 +37,17 @@ API Gateway acts as a centralized entry point for all external client requests.
 ⚫**CORS** – Enables cross-origin resource sharing.
 <br>
 
-🧪 **Validation & Middleware**
 <hr>
+🧪 **Validation & Middleware**
 
 ⚫**Joi** – For validating request bodies, params, and queries.
 
 ⚫Express Middleware – Used extensively for logging, error handling, rate limiting, and validation.
 <br>
 
+<hr>
 🚦 **Rate Limiting & Caching**
 
-<hr>
 
 ⚫**Express Rate Limit** – To limit repeated requests to APIs.
 
@@ -56,7 +56,7 @@ API Gateway acts as a centralized entry point for all external client requests.
 ⚫**Redis** – Used for caching, token storage, and message throttling.
 <br>
 
-📜 **Logging**
 <hr>
+📜 **Logging**
 
 ⚫Winston – Powerful and customizable logging library used across services for error, info, and debug logs.
